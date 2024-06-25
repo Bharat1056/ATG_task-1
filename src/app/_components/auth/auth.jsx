@@ -74,7 +74,7 @@ const Auth = () => {
                     onFocus={() => setIsPasswordFocused(true)}
                     onBlur={() => setIsPasswordFocused(false)}
                 >
-                    <input type="password" className='focus:outline-none p-2 w-full' placeholder='Password' />
+                    <input type={ !seePwd ? "password": "text"} className='focus:outline-none p-2 w-full' placeholder='Password' />
                     <button onClick={togglePwd} className='flex justify-center items-center'>
                         {
                             (seePwd === false) ? (
@@ -95,8 +95,8 @@ const Auth = () => {
                     activeTab === "signIn" ? (
                         <div className='flex justify-between items-center'>
                             <div className='flex justify-center items-center gap-1 cursor-pointer'>
-                                <input type="checkbox" name="rememberme" id="" />
-                                <label htmlFor="rememberme" className='text-[13px]'>Remember Me</label>
+                                <input type="checkbox" name="rememberme" id="rememberme" />
+                                <label htmlFor="rememberme" className='text-[13px] cursor-pointer'>Remember Me</label>
                             </div>
                             <div className='flex justify-center items-center gap-1'>
                                 <svg width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
