@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background: #F7F5F9;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-hobby-purple
+{
+  color: #8064A2;
+}
+.text-hobby-blue
+{
+  color: #0096C8;
+}
+
+.bg-hobby-purple{
+  background-color: #8064A2;
+}
+.border-hobby-purple{
+  border:  2px solid #8064A2;
+}
+/* .border-hobby-purple:hover{
+  border:  2px solid #8064A2;
+} */
+
+.border-hobby-green{
+  border: 2px solid #77933C;
+}
+
+.border-hobby-red{
+  border: 2px solid #C0504D;
+}
+
+.border-hobby-blue{
+  border: 2px solid #0096C8;
+}
+
+.connect-button{
+  border: 1px solid #8064A2;
+  color:#8064A2;
+  border-radius: 8px;
+}
+
+.frame3-bg{
+  background-color: #e5f8fe;
+}
+
+.frame4-bg{
+  background-color: #f4f0f7;
+}
+
+.frame4-audio-bg{
+  background-color: #CCC1DA;
+}
